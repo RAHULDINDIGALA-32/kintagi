@@ -1,0 +1,11 @@
+{
+  "network": "testnet",
+  "deployedAt": "2026-05-03T21:11:44.544Z",
+  "deployer": "0x8c20b5e0ab6b4f1ed6d8439208b76134017a379bb79a00f717122ac63d2af177",
+  "packageId": "0xf74c97599bba19a6c34acc6c7abb62582c5df9a98d941d4ef8eced339b851c13",
+  "txDigest": "BWHf7f21CebuUeHyq4JF4nE71dY4Hic1pPP2uKTCPFbT",
+  "explorerLinks": {
+    "package": "https://suiscan.xyz/testnet/object/0xf74c97599bba19a6c34acc6c7abb62582c5df9a98d941d4ef8eced339b851c13",
+    "tx": "https://suiscan.xyz/testnet/tx/BWHf7f21CebuUeHyq4JF4nE71dY4Hic1pPP2uKTCPFbT"
+  }
+}

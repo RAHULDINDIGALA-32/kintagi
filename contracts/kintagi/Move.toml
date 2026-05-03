@@ -1,0 +1,12 @@
+[package]
+name = "kintagi"
+edition = "2024.beta"
+version = "0.1.0"
+authors = ["Rahul Dindigala"]
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet-v1.40.1" }
+
+[addresses]
+kintagi = "0x0"
+sui = "0000000000000000000000000000000000000000000000000000000000000002"

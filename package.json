@@ -1,0 +1,52 @@
+{
+  "name": "kintagi",
+  "version": "0.1.0",
+  "description": "Kintagi — Dynamic NFT Creator Studio built on Sui Blockchain. No-code NFT deployment with on-chain mutation, trait rules, and game API integration.",
+  "type": "module",
+
+  "scripts": {
+    "deploy":    "node scripts/deploy.mjs",
+    "check":     "sui move build --path contracts/kintagi",
+    "test":      "sui move test --path contracts/kintagi",
+    "clean":     "rm -rf contracts/kintagi/build docs/deployed.json"
+  },
+
+  "dependencies": {
+    "@mysten/sui": "^2.16.0"
+  },
+
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  },
+
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RAHULDINDIGALA-32/kintagi"
+  },
+
+  "keywords": [
+    "sui",
+    "move",
+    "nft",
+    "dynamic-nft",
+    "web3",
+    "blockchain",
+    "kintagi"
+  ],
+
+  "license": "MIT",
+
+  "author": "Rahul Dindigala <rahul.dindigala.dev@gmail.com>",
+
+  "sui": {
+    "network": "testnet",
+    "contractPath": "contracts/kintagi",
+    "fullnodeUrl": "https://fullnode.testnet.sui.io:443",
+    "faucetUrl": "https://faucet.testnet.sui.io"
+  }
+}
